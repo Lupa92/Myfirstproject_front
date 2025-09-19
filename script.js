@@ -1,6 +1,6 @@
 console.log("hello")
 
-fetch('http://localhost:3000/year')
+fetch('https://myfirstproject-back.vercel.app/year')
 .then(response=>response.json())
 .then((data)=>{
     document.querySelector("#year").textContent= data.year
